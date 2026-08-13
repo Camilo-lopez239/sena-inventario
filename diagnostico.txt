@@ -1,0 +1,28 @@
+java -version
+openjdk version "21.0.7" 2025-04-15 LTS
+
+javac -version 
+javac 21.0.7
+
+git --version
+git version 2.51.0.windows.1
+
+
+1. Explique la diferencia entre java y javac.
+RTA: java es el que ejecuta el programa compilado el cual requiere el  nombre de la clase principal para ejecutarlo. javac es el compilador que
+traduce el codigo fuente .java en bytecode .class 
+
+2. Explique qué función cumple Git.
+RTA: Git funciona como el sistema de control de versiones para registrar los cambios que se realizan en el proyecto.
+
+3. Explique si Git y GitHub son lo mismo.
+RTA: Git el el sistema para registrar cambios y gestionar versiones, ademas que funciona localmente en la pc para rastrear los cambios sin conexion a internet.
+GitHub es una plataforma en la nube que aloja repositorios de Git, permite que se almacenen de manera remota y colaboracion en equipo.
+
+4. Defina repositorio, API y método HTTP GET.
+RTA: Repositorio es un almacen digital donde se guardan y se gestionan los  archivos de un proyecto, codigo fuente, documentos, imagenes y configuraciones.
+
+API es un conjunto de reglas y protocolos que permite que 2 programas de software se comuniquen entre si para intercambiar datos y funcionalidades. Esta actua
+como un intermediario o puente que facilita la integracion entre sistemas.
+
+HTTP GET es una solicitud que se utiliza para recuperar datos o recurso de un servidor sin modificar su estado. Este no altera los datos del servidor.
