@@ -26,3 +26,52 @@ API es un conjunto de reglas y protocolos que permite que 2 programas de softwar
 como un intermediario o puente que facilita la integracion entre sistemas.
 
 HTTP GET es una solicitud que se utiliza para recuperar datos o recurso de un servidor sin modificar su estado. Este no altera los datos del servidor.
+
+5. ¿Qué problema resuelve Spring Boot?
+RTA: Facilita la creacion de aplicaciones web y API´s en java, evitando crear cosas manualmente y permite iniciar un servidor rapidamente.
+
+6. ¿Qué es una API?
+RTA: Es una forma en la que diferentes aplicaciones pueden comunicarse e intercambiar informacion facilmente.
+
+7. ¿Qué es un endpoint?
+RTA: Es una direccion de ruta de una API a la que se le puede hacer una peticion.
+
+8. ¿Qué hace un Controller?
+RTA: Recibe las peticiones que llegan a una API y decide que metodo debe ejecutarse para responder.
+
+9. ¿Qué diferencia existe entre Java y Spring Boot?
+RTA: Java es un lenguaje de programacion y Spring Boot es un framework que utiliza java y facilita la creacion de aplicaciones web, API´s y servicios.
+
+
+10. ¿Qué es JSON?
+RTA: Es un  formato utilizado para representar e intercambiar datos.
+
+11. ¿Qué significa serializar?
+RTA: Es convertir un objeto de java a un formato que pueda enviarse como JSON.
+
+12. ¿Qué significa GET?
+RTA: es un metodo de HTTP utilizado para consultar u obtener informacion.
+
+13. ¿Qué función cumple Git?
+RTA: Es una herramienta de control de versiones que sirve para controlar cambios realizados en un proyecto.
+
+14. ¿Qué diferencia existe entre Git y GitHub?
+RTA: Git es la herramienta de control de versiones de un proyecto. GitHub es una plataformadonde se pueden almacenar y compartir repositorios en internet.
+
+15. ¿Qué es un commit?
+Es un punto de guardado de Git que guarda los cambios seleccionados y con un mensaje que explica el cambio realizado.
+
+16. ¿Qué hace git push?
+RTA: Envia los commits realizados en el computador al repositorio remoto.
+
+17. ¿Qué significa origin?
+RTA: es el nombre que git le da al repositorio principal o original.
+
+18. ¿Qué significa main?
+RTA: Es el nombre que se le da a la rama principal de un proyecto.
+
+19. Explique el recorrido completo de GET /productos/2.
+Cliente → HTTP → Tomcat → Spring Boot → ProductoController → buscarProducto(2) → Producto → JSON → Cliente
+
+RTA: El cliente, por ejemplo el navegador, realiza una petición HTTP GET a /productos/2. La petición llega al servidor Tomcat. Spring Boot recibe y organiza la petición, 
+encuentra que la ruta corresponde al ProductoController y ejecuta el método buscarProducto(2). El método busca el producto con ID 2 y devuelve un objeto Producto. Spring Boot serializa ese objeto a formato JSON y finalmente envía la respuesta al cliente.
